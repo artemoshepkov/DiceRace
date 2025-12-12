@@ -1,0 +1,12 @@
+{
+  "name": "com.oshepkov.gamecore",
+  "version": "1.0.0",
+  "displayName": "Game Core Shared Library",
+  "description": "Shared C# code for networking, DTOs, and common game logic between client and server.",
+  "unity": "2021.3",
+  "keywords": ["game", "networking", "shared"],
+  "author": {
+    "name": "OshepkovAI"
+  },
+  "dependencies": {}
+}

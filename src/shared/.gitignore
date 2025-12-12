@@ -1,0 +1,27 @@
+# Build
+bin/
+obj/
+
+# VS
+.vs/
+*.suo
+*.user
+*.userosscache
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# Cache
+*.cache
+*.db
