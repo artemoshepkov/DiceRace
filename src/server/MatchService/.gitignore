@@ -1,0 +1,43 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# VS
+.vs/
+*.vcxproj.user
+
+# IIS Express
+/.vs/config/applicationhost.config
+
+# ASP.NET generated files
+GeneratedFiles/
+App_Data/
+
+# Logs
+*.log
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+*.cache
+project.lock.json
+project.fragment.lock.json
+
+# Publish artifacts
+publish/
+wwwroot/lib/
+
+# Secret configs
+appsettings.Development.json
+appsettings.*.json
+*.secret.json
+
+# Rider
+.idea/
+*.sln.iml
