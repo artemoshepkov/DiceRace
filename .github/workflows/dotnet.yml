@@ -16,7 +16,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Run code style check
-        run: | 
-          dotnet tool install -g dotnet-format
-          dotnet format src/server/GameCoreSolution.sln --verify-no-changes --folder
+
+      - name : Install dotnet-format tool
+        run: dotnet tool install -g dotnet-format
+        
+      - name: Run C# solution code style check
+        run: dotnet format src/server/GameCoreSolution.sln --verify-no-changes
+      - name: Run unity code style check
+        run: dotnet format src/client/UnityClient/DiceRaceClient/Assets/src --verify-no-changes
